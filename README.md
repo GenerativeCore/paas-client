@@ -13,13 +13,12 @@ You need login & password.
 npm ci
 ```
 
-- [ ] Put credentials to `~/consts.ts`
+- [ ] Put credentials to `.env`
 
-```ts
-export const AUTH = {
-  username: '?',
-  password: '?',
-};
+```bash
+username=?
+password=?
+
 ```
 
 - [ ] Create folder `~/images`
