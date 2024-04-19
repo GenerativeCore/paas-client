@@ -1,0 +1,6 @@
+node_modules
+images/**
+payloads/**
+.DS_Store
+.idea
+.env
