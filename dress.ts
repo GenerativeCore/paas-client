@@ -12,10 +12,10 @@ const request = {
         // raw preview or full undress?
         preview,
         // don't pass if fully naked
-        //prompt: 'girl in white dress',
-        //negativePrompt: '',
+        prompt: 'Ballgown dress made entirely of flowers :rose:',
+        negativePrompt: 'ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, Western comic style, sleeves, FastNegative',
         gender: 'auto',
-        image: fs.readFileSync('./for_dress.jpg').toString('base64')
+        image: fs.readFileSync('./for_dress.png').toString('base64')
     }
 };
 
